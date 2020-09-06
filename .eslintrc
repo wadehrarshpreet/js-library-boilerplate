@@ -1,0 +1,19 @@
+{
+	"parser": "babel-eslint",
+	"extends": ["airbnb-base", "plugin:flowtype/recommended"],
+	"rules": {
+    "import/prefer-default-export": 0,
+    "no-tabs": 0,
+    "import/no-extraneous-dependencies": 0,
+		"indent": [
+			"warn",
+			"tab",
+			{
+				"SwitchCase": 1
+			}
+		]
+	},
+	"parserOptions": {},
+	"plugins": ["flowtype"],
+	"settings": {}
+}

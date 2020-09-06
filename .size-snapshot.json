@@ -1,0 +1,17 @@
+{
+  "js-library-boilerplate.umd.js": {
+    "bundled": 869,
+    "minified": 326,
+    "gzipped": 223
+  },
+  "js-library-boilerplate.amd.min.js": {
+    "bundled": 189,
+    "minified": 191,
+    "gzipped": 159
+  },
+  "js-library-boilerplate.umd.min.js": {
+    "bundled": 324,
+    "minified": 326,
+    "gzipped": 223
+  }
+}

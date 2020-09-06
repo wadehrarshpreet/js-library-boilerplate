@@ -1,0 +1,28 @@
+{
+	"tags": {
+		"allowUnknownTags": true
+	},
+	"source": {
+		"include": ["./lib", "README.md"],
+		"includePattern": ".+.js(doc)?$",
+		"excludePattern": "docs"
+	},
+	"plugins": ["plugins/markdown", "node_modules/jsdoc-babel"],
+	"templates": {
+		"cleverLinks": false,
+		"monospaceLinks": true,
+		"systemName": "remoteFileExplorer",
+		"footer": "Created by Arshpreet Wadehra",
+		"copyright": "2020",
+		"navType": "vertical",
+		"theme": "spacelab",
+		"linenums": true,
+		"collapseSymbols": true,
+		"inverseNav": false
+	},
+	"opts": {
+		"encoding": "utf8",
+		"destination": "docs",
+		"recurse": true
+	}
+}
